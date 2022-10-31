@@ -1,0 +1,12 @@
+@import './block/main1/mixins';
+@import './block/main1/navbar';
+@import './block/main1/main_banner';
+@import './block/main1/home_tabs';
+@import './block/main1/footer';
+
+@font-face {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Avenir'), url('https://fonts.cdnfonts.com/s/71748/avenir_roman_12.woff') format('woff');
+}

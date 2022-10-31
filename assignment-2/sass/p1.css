@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Avenir";
+}
+
+.main_banner {
+  color: white;
+  background: url(../../../images/main1/banner_img.jpg) no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+}
+.main_banner .main_banner_quotes {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.main_banner .main_banner_quotes h1 {
+  font-size: 60px;
+}
+.main_banner .main_banner_quotes h5 {
+  font-size: 20px;
+}
+
+@font-face {
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Avenir"), url("https://fonts.cdnfonts.com/s/71748/avenir_roman_12.woff") format("woff");
+}/*# sourceMappingURL=p1.css.map */
